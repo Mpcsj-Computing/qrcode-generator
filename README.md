@@ -1,4 +1,4 @@
-# Python Serverless QR Code Generator
+# Python Serverless QR Code Generator updated
 
 
 Python project capable to generate QR code images, written in Python, and deployed on AWS Lambda + API Gateway
