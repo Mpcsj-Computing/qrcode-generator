@@ -22,7 +22,7 @@ Python project capable to generate QR code images, written in Python, and deploy
 
 - First command:
 ```
-  aws apigateway update-integration-response --rest-api-id <your_rest_api_id_here_without_the_tags> --resource-id <your_resource_id_here_without_the_tags> --http-method GET --status-code 200 --patch-operations op='replace',path='/responseParameters/method.response.header.Access-Control-Allow-Origin',value='"'"'*'"'"'
+  aws apigateway update-integration-response --rest-api-id <your_rest_api_id_here_without_the_tags> --resource-id <your_resource_id_here_without_the_tags> --http-method <your_http_method_type_uppercase_without_tags> --status-code 200 --patch-operations op='replace',path='/contentHandling',value='CONVERT_TO_BINARY'
 ```
 
 - Second command:
